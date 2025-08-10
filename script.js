@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "cover": "",
         "title": "Poeta Chileno",
         "author": "Alejandro Zambra",
-        "review": "A book about Chile (or it could be anywhere else? Having lived ik Santiago it brought me back to many places, and lifes i haven't lived. The prose is fun and light, as it shoild always be.",
+        "review": "A book about Chile (or it could be anywhere else?) Having lived nk Santiago, it brought me back to many places, and lifes I haven't lived. The prose is fun and light, as it should always be.",
         "readDate": "2025-08-10"
     },
     {
