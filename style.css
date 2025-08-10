@@ -1,0 +1,190 @@
+:root {
+    --bg-color: #1a1a1a;
+    --primary-color: #2e2e2e;
+    --secondary-color: #444;
+    --text-color: #e0e0e0;
+    --header-color: #ffffff;
+    --accent-color: #4d90fe;
+    --border-color: #3c3c3c;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+header {
+    padding: 2rem 2.5rem;
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+h1 {
+    margin: 0;
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.search-container {
+    margin-top: 1.5rem;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(77, 144, 254, 0.5);
+}
+
+main {
+    padding: 0;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.book-table th, .book-table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.book-table thead {
+    background-color: var(--secondary-color);
+}
+
+.book-table th {
+    font-weight: 500;
+    color: var(--header-color);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.book-table tbody tr {
+    transition: background-color 0.2s;
+}
+
+.book-table tbody tr:hover {
+    background-color: var(--secondary-color);
+}
+
+.book-cover {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    vertical-align: middle;
+}
+
+.book-table td {
+    vertical-align: middle;
+}
+
+.book-table td:nth-child(2) { /* Title */
+    font-weight: 500;
+    color: var(--header-color);
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Hide table headers */
+    .book-table thead {
+        display: none;
+    }
+
+    .book-table, .book-table tbody, .book-table tr, .book-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .book-table tr {
+        margin-bottom: 15px;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .book-table tr:last-child {
+        margin-bottom: 0;
+    }
+    
+    .book-table tbody tr:hover {
+        background-color: transparent;
+    }
+
+    .book-table td {
+        text-align: right;
+        padding-left: 50%; /* Make space for the label */
+        position: relative;
+        border-bottom: 1px dashed var(--border-color);
+    }
+    
+    .book-table td:last-child {
+        border-bottom: none;
+    }
+
+    .book-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        width: calc(50% - 30px);
+        padding-right: 10px;
+        text-align: left;
+        font-weight: 500;
+        color: var(--header-color);
+    }
+
+    .book-cover {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    
+    .book-table td:first-child { /* Special handling for cover cell */
+       padding: 15px;
+       text-align: center;
+    }
+    
+    .book-table td:first-child::before {
+       display: none; /* No label for cover cell */
+    }
+}

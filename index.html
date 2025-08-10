@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Reading List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>My Reading List</h1>
+            <div class="search-container">
+                <p>The full list can be found in my <a href="https://www.goodreads.com/user/show/89605763-francisco-carrillo">Goodreads profile</a></p>
+                <input type="text" id="searchInput" placeholder="Search by title, author, or review...">
+            </div>
+        </header>
+
+        <main>
+            <table class="book-table">
+                <thead>
+                    <tr>
+                        <th>Cover</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>My Review</th>
+                        <th>Read Date</th>
+                    </tr>
+                </thead>
+                <tbody id="book-table-body">
+                    </tbody>
+            </table>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
