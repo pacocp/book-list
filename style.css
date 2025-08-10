@@ -37,6 +37,7 @@ h1 {
     color: var(--header-color);
     font-weight: 700;
     font-size: 2.5rem;
+    text-align: center;
 }
 
 .search-container {
@@ -113,21 +114,27 @@ main {
     color: var(--header-color);
 }
 
-/* --- Responsive Design --- */
+
+/* --- NEW & IMPROVED RESPONSIVE DESIGN --- */
 @media (max-width: 768px) {
     body {
-        padding: 10px;
+        padding: 0;
+    }
+
+    .container {
+        border-radius: 0;
     }
 
     header {
         padding: 1.5rem;
+        border-radius: 0;
     }
 
     h1 {
         font-size: 2rem;
     }
 
-    /* Hide table headers */
+    /* Hide the table headers, we will use labels in the cells instead */
     .book-table thead {
         display: none;
     }
@@ -135,56 +142,65 @@ main {
     .book-table, .book-table tbody, .book-table tr, .book-table td {
         display: block;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .book-table tr {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         border: 1px solid var(--border-color);
         border-radius: 8px;
         overflow: hidden;
+        background-color: var(--primary-color);
     }
     
     .book-table tr:last-child {
         margin-bottom: 0;
     }
     
+    /* Remove hover effect on mobile as it's not very useful */
     .book-table tbody tr:hover {
-        background-color: transparent;
+        background-color: var(--primary-color);
     }
 
     .book-table td {
-        text-align: right;
-        padding-left: 50%; /* Make space for the label */
-        position: relative;
+        border: none;
         border-bottom: 1px dashed var(--border-color);
+        text-align: left; /* Ensure text aligns left */
+        
+        /* Using CSS Grid for a clean two-column layout */
+        display: grid;
+        grid-template-columns: 100px 1fr; /* Fixed width for label, flexible for value */
+        align-items: center;
+        gap: 10px;
+        padding: 12px 15px;
     }
     
     .book-table td:last-child {
         border-bottom: none;
     }
 
+    /* The ::before pseudo-element creates the label */
     .book-table td::before {
         content: attr(data-label);
-        position: absolute;
-        left: 15px;
-        width: calc(50% - 30px);
-        padding-right: 10px;
-        text-align: left;
         font-weight: 500;
         color: var(--header-color);
+        text-align: right;
+    }
+
+    /* Special handling for the book cover cell */
+    .book-table td:first-child {
+       grid-template-columns: 1fr; /* Make the cover cell single-column */
+       padding: 20px 0;
+       justify-items: center;
+    }
+    
+    /* We don't need a label for the cover image itself */
+    .book-table td:first-child::before {
+       display: none;
     }
 
     .book-cover {
-        display: block;
-        margin: 0 auto 10px auto;
-    }
-    
-    .book-table td:first-child { /* Special handling for cover cell */
-       padding: 15px;
-       text-align: center;
-    }
-    
-    .book-table td:first-child::before {
-       display: none; /* No label for cover cell */
+        width: 100px; /* Make the cover a bit larger on mobile */
+        height: auto;
     }
 }
