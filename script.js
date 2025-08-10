@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+   {
+        "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170876977l/75524._SY75_.jpg",
+        "title": "Poeta Chileno",
+        "author": "Alejandro Zambra",
+        "review": "A book about Chile (or it could be anywhere else? Having lived ik Santiago it brought me back to many places, and lifes i haven't lived. The prose is fun and light, as it shoild always be.",
+        "readDate": "2025-08-10"
+    },
     {
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170876977l/75524._SY75_.jpg",
         "title": "Cosmética del enemigo",
