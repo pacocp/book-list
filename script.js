@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
-        "cover": "",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1578152767i/50272339.jpg",
         "title": "Poeta Chileno",
         "author": "Alejandro Zambra",
-        "review": "A book about Chile (or it could be anywhere else?) Having lived nk Santiago, it brought me back to many places, and lifes I haven't lived. The prose is fun and light, as it should always be.",
+        "review": "A book about Chile (or it could be anywhere else?) Having lived in Santiago, it brought me back to many places, and lifes I haven't lived. The prose is fun and light, as it should always be.",
         "readDate": "2025-08-10"
     },
     {
