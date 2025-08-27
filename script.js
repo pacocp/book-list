@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         "cover": "",
         "title": "Metafísica de los tubos",
-        "author": "Amelie Nothomb",
+        "author": "Amélie Nothomb",
         "review": "This reads as an imaginary autobiography. Knowing that she was borned in Japan, it makes sense how it describes having to leave. Really enjoyed, as most of her books.",
         "readDate": "2025-08-27"
     },
