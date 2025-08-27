@@ -4,12 +4,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+   {
+        "cover": "",
+        "title": "Pura Pasión",
+        "author": "Annie Ernaux",
+        "review": "What it feels likr to be obsessed with someone? Annie Ernaux put to words the feeling of desire, extreme desire, that feels like madness. That is something we have all felt at some point, thinking 24/7 about someone. Her writing is beautiful.",
+        "readDate": "2025-08-27"
+    },
     {
         "cover": "",
         "title": "Metafísica de los tubos",
         "author": "Amélie Nothomb",
         "review": "This reads as an imaginary autobiography. Knowing that she was borned in Japan, it makes sense how it describes having to leave. Really enjoyed, as most of her books.",
-        "readDate": "2025-08-27"
+        "readDate": "2025-08-26"
     },
    {
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1578152767i/50272339.jpg",
