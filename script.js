@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+    {
+        "cover": "",
+        "title": "Metafísica de los tubos",
+        "author": "Amelie Nothomb",
+        "review": "This reads as an imaginary autobiography. Knowing that she was borned in Japan, it makes sense how it describes having to leave. Really enjoyed, as most of her books.",
+        "readDate": "2025-08-27"
+    },
    {
         "cover": "",
         "title": "Poeta Chileno",
