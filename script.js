@@ -5,14 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
-        "cover": "",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320492037i/642231.jpg",
+        "title": "Measuring the world",
+        "author": "Daniel Kehlmann",
+        "review": "It is a nice read. However, I did not really enjoyed the style of the author. Might be that I haven't read in English for a while.",
+        "readDate": "2025-08-31"
+    },
+   {
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1745797102i/31578185.jpg",
         "title": "Pura Pasión",
         "author": "Annie Ernaux",
-        "review": "What it feels likr to be obsessed with someone? Annie Ernaux put to words the feeling of desire, extreme desire, that feels like madness. That is something we have all felt at some point, thinking 24/7 about someone. Her writing is beautiful.",
+        "review": "What it feels like to be obsessed with someone? Annie Ernaux put to words the feeling of desire, extreme desire, that feels like madness. That is something we have all felt at some point, thinking 24/7 about someone. Her writing is beautiful.",
         "readDate": "2025-08-27"
     },
     {
-        "cover": "",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1170780526i/71530.jpg",
         "title": "Metafísica de los tubos",
         "author": "Amélie Nothomb",
         "review": "This reads as an imaginary autobiography. Knowing that she was borned in Japan, it makes sense how it describes having to leave. Really enjoyed, as most of her books.",
