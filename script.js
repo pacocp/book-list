@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1699536928i/199860100.jpg",
+        "title": "Abel",
+        "author": "Alessandro Baricco",
+        "review": "I really enjoy the writing of Alessandro Baricco. The atmosphere, the feeling of living in the wild west, and the feelings that the characters experience is engaging. I would not say I loved it, but I have really enjoyed it.",
+        "readDate": "2025-09-13"
+    },
+   {
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320492037i/642231.jpg",
         "title": "Measuring the world",
         "author": "Daniel Kehlmann",
