@@ -5,6 +5,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1718085132i/57398262.jpg",
+        "title": "Los nombres propios",
+        "author": "Marta Jiménez Serrano",
+        "review": "Am I any different to the young Paco? How are the things I am feeling any different to what I thought when I was a kid? Unfortunately, that is something that I cannot know, since I have not taken note of it. In this book, Marta let us to sneak into her life, as observers, as an imaginary friend (Belandia Fu), that knows everything that is going to happen but still allows you to make those mistakes that you need to make, in order to learn. This is a book about changes, but also about things that remain the same. I think the first half of the book is amazing, while the adult part of the book did not resonate that much with me. Still, quite enjoyable. ",
+        "readDate": "2025-10-14"
+   },
+   {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1593382384i/10261888.jpg",
+        "title": "Futuro Imperfecto",
+        "author": "Xulia Alonso",
+        "review": "Losing someone is always difficult. Losing him based on decisions you have made in the past must be even harder. I have really enjoyed the book, it is raw, difficult to read at times, and an open wound that the author allows you to explore. I wish I would be able to openly write about my feelings as the author does. It is a gift to the rest of us. Thanks to the beautiful person that recommend it to me, it is amazing.",
+        "readDate": "2025-09-27"
+   },
+   {
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1699536928i/199860100.jpg",
         "title": "Abel",
         "author": "Alessandro Baricco",
