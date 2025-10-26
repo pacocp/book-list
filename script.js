@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1574652462i/280826.jpg",
+        "title": "Te trataré como una reina",
+        "author": "Rosa Montero",
+        "review": "Short and enjoyable book from the amazing author Rosa Montero. It is an engaging story, and there are many sentences in the book that I had to highlight.",
+        "readDate": "2025-10-23"
+   },
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1718085132i/57398262.jpg",
         "title": "Los nombres propios",
