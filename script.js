@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+   {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590192038i/9738320.jpg",
+        "title": "Picnic en Hanging Rock",
+        "author": "Joan Lindsay",
+        "review": "What is real and what is imagination? I did not know about this story, but now I want to watch the movie. Life sometimes can be what we imagine, more than what we live. And that fine line between the two is what drives this story.",
+        "readDate": "2025-11-16"
+   },
     {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1574652462i/280826.jpg",
         "title": "Te trataré como una reina",
