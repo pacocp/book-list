@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "",
+        "title": "Alpes: más allá de los límites",
+        "author": "Kilian Jornet",
+        "review": "I am always amazed by the feats that Kilian does. The photographs in the book are amazing.",
+        "readDate": "2025-11-18"
+   },
+   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590192038i/9738320.jpg",
         "title": "Picnic en Hanging Rock",
         "author": "Joan Lindsay",
