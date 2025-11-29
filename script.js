@@ -4,7 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
-   {
+  {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1661787608i/62132240.jpg",
+        "title": "Memorias del subsuelo",
+        "author": "Fyodor Dostoevsky",
+        "review": "A guide on how not to live. a guide on thinking more than living. Sorrow, that's all I can think about.",
+        "readDate": "2025-11-29"
+   },
+ {
         "cover": "",
         "title": "Alpes: más allá de los límites",
         "author": "Kilian Jornet",
