@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+   {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1610093616i/56591408.jpg",
+        "title": "Las gratitudes",
+        "author": "Delphine de Vigan",
+        "review": "Recommended by my amazing partner, this book is perfect. The pace, the language, the characters. It makes you feel the pass of time, how we react to it, and that we need to be grateful with the people we love before it's too late. I loved it.",
+        "readDate": "2025-11-30"
+   },
   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1661787608i/62132240.jpg",
         "title": "Memorias del subsuelo",
