@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720343930i/86362607.jpg",
+        "title": "Como bestias",
+        "author": "Violane Bérot",
+        "review": "A short intriguing book. You never expect the end of the story, I have really enjoyed it.",
+        "readDate": "2025-12-01"
+   },
+   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1610093616i/56591408.jpg",
         "title": "Las gratitudes",
         "author": "Delphine de Vigan",
