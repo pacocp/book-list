@@ -5,6 +5,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1751453755i/237809526.jpg",
+        "title": "Sobre Dios",
+        "author": "Byung-Chul Han",
+        "review": "This is my first essay since a long time. Interesting analysis on why society has forgotten god. Even though I am an atheist, I have enjoyed it.",
+        "readDate": "2025-12-23"
+   },
+   {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1565783016l/51816145.jpg",
+        "title": "Las lealtades",
+        "author": "Delphine de Vigan",
+        "review": "I really enjoy the style of the author. This book explores the hidden lifes of people, and what we imagine when we do not know what is actually happening. The intersection of multiple stories amazes me.",
+        "readDate": "2025-12-18"
+   },
+   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720343930i/86362607.jpg",
         "title": "Como bestias",
         "author": "Violane Bérot",
