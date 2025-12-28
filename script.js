@@ -5,6 +5,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/I/91jYInpehVL._AC_UF1000,1000_QL80_.jpg",
+        "title": "Será todo para mi",
+        "author": "Zerocalcare",
+        "review": "The walls we build between ourselves and our parents. The feeling of guilt, and much more is touched in this amazing comic.",
+        "readDate": "2025-12-29"
+   },
+   {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1409433806i/23126644.jpg",
+        "title": "Los bienes de este mundo",
+        "author": "Irène Némirovsky",
+        "review": "Sublime novel about the horrors of the war and the generation that had to live through two of them. It clearly shows the strength and faith that they needed to have.",
+        "readDate": "2025-12-27"
+   },
+   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1751453755i/237809526.jpg",
         "title": "Sobre Dios",
         "author": "Byung-Chul Han",
