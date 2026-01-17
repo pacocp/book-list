@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1689135481i/60531416.jpg",
+        "title": "Yumi and the Nightmare Painter",
+        "author": "Brandon Sanderson",
+        "review": "TMy first novel from Sanderson. It is for teenagers, read it for a bookclub. It is not that I did not like it, but I think I am too old for this!",
+        "readDate": "2026-01-14"
+   },
+   {
         "cover": "https://m.media-amazon.com/images/I/91jYInpehVL._AC_UF1000,1000_QL80_.jpg",
         "title": "Será todo para mi",
         "author": "Zerocalcare",
