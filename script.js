@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "author": "Zerocalcare",
         "review": "What is like to be in your 30s? Friends that are getting merried, others that do not know what to do with their lives, others with fears. We are all at different points, but we all have to remember why we became friends in the first place. Amazing novel by Zerocalcare.",
         "readDate": "2025-01-20"
+},
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1689135481i/60531416.jpg",
         "title": "Yumi and the Nightmare Painter",
