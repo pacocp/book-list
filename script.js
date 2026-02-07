@@ -5,6 +5,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1647460822i/60630995.jpg",
+        "title": "Inmune: un viaje al misterioso sistema que te mantiene vivo",
+        "author": "Philipp Dettmer, Verónica Puertollano López (Translator)",
+        "review": "Really nice introduction to the complex immune system. I had to read it across multiple months.",
+        "readDate": "2025-02-07"
+},
+   {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1560505989i/22321336.jpg",
+        "title": "Canijo",
+        "author": "Fernando Mansilla",
+        "review": "80s, Seville, heroin, everything in a single novel. Fernando Mansilla describes the lives of people there, walking you through every street, navigating the lifes of heroin addicts, the drug dealers, and everything in between. I have really enjoyed the novel, now I need to walk the same streets.",
+        "readDate": "2025-02-06"
+},
+   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1759504452i/242014687.jpg",
         "title": "Mas allá de los escrombros",
         "author": "Zerocalcare",
