@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1758798193i/242058788.jpg",
+        "title": "Oxígeno",
+        "author": "Marta Jiménez Serrano",
+        "review": "How does it feel to almost died because someone did not care?. In this personal book, the author describes how she almost died intoxicated. it is real, hard, and make you think about how life can be so short. it was a gift from my brother.",
+        "readDate": "2025-02-14"
+},
+   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1647460822i/60630995.jpg",
         "title": "Inmune: un viaje al misterioso sistema que te mantiene vivo",
         "author": "Philipp Dettmer, Verónica Puertollano López (Translator)",
