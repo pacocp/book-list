@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1430836356i/196323.jpg",
+        "title": "París no se acaba nunca",
+        "author": "Enrique Vila-Matas",
+        "review": "I really like the style of Vila-Matas. I have really enjoyed this book, and there are so many quotes that I have highlighted. Highly recommended.",
+        "readDate": "2025-02-25"
+},
+   {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1758798193i/242058788.jpg",
         "title": "Oxígeno",
         "author": "Marta Jiménez Serrano",
