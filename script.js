@@ -4,40 +4,47 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+{
+        "cover": "",
+        "title": "Ácido Sulfúrico",
+        "author": "Amelie Nothomb",
+        "review": "Is the evil the espectador or the executioner? in this short novel, Amelie Nothomb proves that both csn be involved, and they each one of us might act like espectatord and executioners at the same time.",
+        "readDate": "2026-03-14"
+},
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1430836356i/196323.jpg",
         "title": "París no se acaba nunca",
         "author": "Enrique Vila-Matas",
         "review": "I really like the style of Vila-Matas. I have really enjoyed this book, and there are so many quotes that I have highlighted. Highly recommended.",
-        "readDate": "2025-02-25"
+        "readDate": "2026-02-25"
 },
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1758798193i/242058788.jpg",
         "title": "Oxígeno",
         "author": "Marta Jiménez Serrano",
         "review": "How does it feel to almost died because someone did not care?. In this personal book, the author describes how she almost died intoxicated. it is real, hard, and make you think about how life can be so short. it was a gift from my brother.",
-        "readDate": "2025-02-14"
+        "readDate": "2026-02-14"
 },
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1647460822i/60630995.jpg",
         "title": "Inmune: un viaje al misterioso sistema que te mantiene vivo",
         "author": "Philipp Dettmer, Verónica Puertollano López (Translator)",
         "review": "Really nice introduction to the complex immune system. I had to read it across multiple months.",
-        "readDate": "2025-02-07"
+        "readDate": "2026-02-07"
 },
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1560505989i/22321336.jpg",
         "title": "Canijo",
         "author": "Fernando Mansilla",
         "review": "80s, Seville, heroin, everything in a single novel. Fernando Mansilla describes the lives of people there, walking you through every street, navigating the lifes of heroin addicts, the drug dealers, and everything in between. I have really enjoyed the novel, now I need to walk the same streets.",
-        "readDate": "2025-02-06"
+        "readDate": "2026-02-06"
 },
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1759504452i/242014687.jpg",
         "title": "Mas allá de los escrombros",
         "author": "Zerocalcare",
         "review": "What is like to be in your 30s? Friends that are getting merried, others that do not know what to do with their lives, others with fears. We are all at different points, but we all have to remember why we became friends in the first place. Amazing novel by Zerocalcare.",
-        "readDate": "2025-01-20"
+        "readDate": "2026-01-20"
 },
    {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1689135481i/60531416.jpg",
