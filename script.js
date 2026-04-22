@@ -4,8 +4,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+     {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1320559832i/3374076.jpg",
+        "title": "Bonsai",
+        "author": "Alejandro Zambra",
+        "review": "My second novel from Alejandro Zambra. I have really liked it. The book is like a bonsai, short, and that needs carefull maintenance. Loved it.",
+        "readDate": "2026-04-22"
+},
+    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1736614435i/59558308.jpg",
+        "title": "Qué hacer con estos pedazos",
+        "author": "Piedad Bonnett",
+        "review": "Life is sometimes a train, where you can decide to stop. There are some people that never stops, and when you reach your destination, you ask yourself, what have I done? I have really enjoyed this novel, many highlights and interesting thoughts.",
+        "readDate": "2026-04-20"
+},
+    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1643837034i/60293672.jpg",
+        "title": "El peligro de estar cuerda",
+        "author": "Rosa Montero",
+        "review": "Writers are strange people, there is no doubt about that. Beautufilly written by Rosa Montero, this book explores the inner world of writers. I have really enjoyed it even though I do not see myself reflected at all.",
+        "readDate": "2026-04-10"
+},
 {
-        "cover": "",
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1301679210i/7481121.jpg",
         "title": "Ácido Sulfúrico",
         "author": "Amelie Nothomb",
         "review": "Is the evil the espectador or the executioner? in this short novel, Amelie Nothomb proves that both csn be involved, and they each one of us might act like espectatord and executioners at the same time.",
