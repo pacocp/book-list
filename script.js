@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1312928956i/10200182.jpg",
+        "title": "Mi planta de naranja-lima",
+        "author": "José Mauro de Vasconcelos",
+        "review": "This was a gift from my friend Mar. I have really enjoyed it, the story has power, showing when sometimes you have to grow fast, and by learning from pain.",
+        "readDate": "2026-04-25"
+},
      {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1320559832i/3374076.jpg",
         "title": "Bonsai",
