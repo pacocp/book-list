@@ -4,6 +4,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+     {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1318202162i/9476086.jpg",
+        "title": "Mi suicidio",
+        "author": "Henri Roorda",
+        "review": "What would make you want to kill yourself? This book explores those questions, made by the author prior to his suicide. It surprises me how calmed he made all decisions, portraying the complexity of human emotions and how his friends try to dissuade him. I picked it from Rosa Montero's book.",
+        "readDate": "2026-05-08"
+},
+    {
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1759148143i/241434373.jpg",
+        "title": "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence",
+        "author": "Sebastian Mallaby",
+        "review": "I am a geek, what I can do? I really like reading books about tech, especially related to AI. This book tells the story of Deepmind, focusing on Demis Hassabis. I have really enjoyed it (makes me want to work more).",
+        "readDate": "2026-05-03"
+},
     {
         "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1312928956i/10200182.jpg",
         "title": "Mi planta de naranja-lima",
