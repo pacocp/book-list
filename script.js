@@ -4,8 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+    {
+        "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZ0yGdbMSosRA5urEjn90KuVkdiAhG9YKo4QW4WZKhhpQ_Mdob",
+        "title": "El jardinero y la muerte",
+        "author": "Gueorgui Gospodínov",
+        "review": "My first book from this author. It is heartbreaking. The relationship between you and your father, the unstoppable pass of time, and how we need to take care of our love ones. Also the love for the small things in life. I think the first sentence of the book is one of the best I have ever read: 'Mi padre era jardinero, ahora es jardín'",
+        "readDate": "2026-05-14"
+},
      {
-        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1318202162i/9476086.jpg",
+        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1318202162i/9476086.jpgvit",
         "title": "Mi suicidio",
         "author": "Henri Roorda",
         "review": "What would make you want to kill yourself? This book explores those questions, made by the author prior to his suicide. It surprises me how calmed he made all decisions, portraying the complexity of human emotions and how his friends try to dissuade him. I picked it from Rosa Montero's book.",
