@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "readDate": "2026-05-14"
 },
      {
-        "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1318202162i/9476086.jpgvit",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkqwpNYtF2NFc0cMQ_ojbmiJ2a6mxjHW19tCwsnDLFsThF-TXm",
         "title": "Mi suicidio",
         "author": "Henri Roorda",
         "review": "What would make you want to kill yourself? This book explores those questions, made by the author prior to his suicide. It surprises me how calmed he made all decisions, portraying the complexity of human emotions and how his friends try to dissuade him. I picked it from Rosa Montero's book.",
