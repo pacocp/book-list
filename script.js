@@ -4,6 +4,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+     {
+        "cover": "https://m.media-amazon.com/images/I/61PtDHMVmQL._AC_UF1000,1000_QL80_.jpg",
+        "title": "Nada",
+        "author": "Carmen Laforet",
+        "review": "An Spanish classic. The characters do not enjoy life, but they do nothing. They want to always escape, but they do not do anything to change their lives. Life is changing around them, but they remain still. It is a fear that I have.",
+        "readDate": "2026-06-02"
+},
+    {
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnT5J87wexYrbFvIiS-Nuym1-FJjpe98AgSqDaJ73s4TsCIiCK",
+        "title": "Las perfecciones",
+        "author": "Vincenzo Latronico",
+        "review": "This book tells the story about our society, and how we have succumb to the idea of perfection in the digital world. Digital nomads that try to show their perfect life, when it is not. I have enjoyed it.",
+        "readDate": "2026-05-23"
+},
     {
         "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZ0yGdbMSosRA5urEjn90KuVkdiAhG9YKo4QW4WZKhhpQ_Mdob",
         "title": "El jardinero y la muerte",
