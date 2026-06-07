@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+    {
+        "cover": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRb9HfApc5AtAXBw93kuJsoKsYA_6nni3UdblXO6BNLkGxfUoBH",
+        "title": "Manía",
+        "author": "Lionel Shriver",
+        "review": "I have loved this book, but it has left me with mixed feelings. How much I am carried out by other people opinions? It made me think a lot.",
+        "readDate": "2026-06-07"
+},
      {
         "cover": "https://m.media-amazon.com/images/I/61PtDHMVmQL._AC_UF1000,1000_QL80_.jpg",
         "title": "Nada",
