@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
     {
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5StajsccBJ_z-Ty92wo4pZsEOVK9nfD1GoDDQ0zTOdjVIsvff",
+        "title": "Física de la tristeza",
+        "author": "Gueorgui Gospodínov",
+        "review": "It was the second book that I read from this author. It can make you feel devastated and happy at times. The book portraits the pass of time in the unique way of writing that the author has. I have really enjoyed it, as all his books.",
+        "readDate": "2026-06-21"
+},
+    {
         "cover": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRb9HfApc5AtAXBw93kuJsoKsYA_6nni3UdblXO6BNLkGxfUoBH",
         "title": "Manía",
         "author": "Lionel Shriver",
