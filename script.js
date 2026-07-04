@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+{
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4yMk2rJ2JQz0C5n6-U6WSMX9pdMKfC2XwVd3Hpkdow&s=10",
+        "title": "La vida privada de los árboles",
+        "author": "Alejandro Zambra",
+        "review": "This was maybe my least favorite book from the author. It is not a bad book per se, but it is really similar to bonsai. Still I have enjoyed it.",
+        "readDate": "2026-06-29"
+},
     {
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5StajsccBJ_z-Ty92wo4pZsEOVK9nfD1GoDDQ0zTOdjVIsvff",
         "title": "Física de la tristeza",
