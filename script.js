@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9_qeqCw_1jlRNKrh7AR9NZ2j1nDYiejqshVY05J_4aA&s=10",
+        "title": "Punto de araña",
+        "author": "Nerea Pallares",
+        "review": "I really like what this book tries to show, and the importance of women in society and how they are neglected.",
+        "readDate": "2026-07-06"
+},
+{
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4yMk2rJ2JQz0C5n6-U6WSMX9pdMKfC2XwVd3Hpkdow&s=10",
         "title": "La vida privada de los árboles",
         "author": "Alejandro Zambra",
