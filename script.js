@@ -4,6 +4,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+    {
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR57m3AZvyrxNo4yvQzhdhguqe1IbyV16PKZpvXDkCObw&s=10",
+        "title": "Dispersión",
+        "author": "Pepe Colubi",
+        "review": "Have not read a Colubi book for a while. It was ok until the end, where the feelings about the sadness of loosing someone really resonated with me.",
+        "readDate": "2026-07-15"
+},
+    {
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAt2hIqNl4RZrEl-kCRQEnkIcwjr6ZhMRP1Y30buZiww&s=10",
+        "title": "Las tempestálidas",
+        "author": "Gueorgui Gospodínov",
+        "review": "Amazing novel by Gospodinov. How he works with the concept of time, how we move throught it and how we experience it. So many quotes from it. I prefer El jardinero y la muerte, but this one is also amazing.",
+        "readDate": "2026-07-11"
+},
 {
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9_qeqCw_1jlRNKrh7AR9NZ2j1nDYiejqshVY05J_4aA&s=10",
         "title": "Punto de araña",
