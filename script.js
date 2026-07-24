@@ -4,7 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+
     {
+        "cover": "https://cms.anagrama-ed.es/uploads/media/portadas/0001/22/2e9ac80d43adb20cb6615409d8ed376c42a11158.jpeg",
+        "title": "Lectura Fácil",
+        "author": "Cristina Morales",
+        "review": "A book gifted by my friend Borja. Never thought about how much freedom we steel from people we consider to be different, nor the concept of Lectura Fácil. Nice read. ",
+        "readDate": "2026-07-23"
+    },
+      {
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR57m3AZvyrxNo4yvQzhdhguqe1IbyV16PKZpvXDkCObw&s=10",
         "title": "Dispersión",
         "author": "Pepe Colubi",
