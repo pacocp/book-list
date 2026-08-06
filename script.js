@@ -4,7 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
-
+     {
+        "cover": "https://imgs.search.brave.com/41xbBQwtL6GNK3KRtybqcxwDBzHfJMN7LQ-G_2DAsdE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubGlicm90ZWEu/Y29tL3VwbG9hZHMv/bWVkaWEvMjAyNi8w/NS8yNy9sYS1waWVs/LWhlbWJyYS5qcGVn",
+        "title": "La piel hembra",
+        "author": "Elaine Vilar Madruga",
+        "review": "I did not enjoy much the first part of the book. I thought the second part was brilliant. A really nice read of magic realism, I have enjoyed it! I had not read something long for a while, so it has been nice to read a book for a while.",
+        "readDate": "2026-08-05"
+    },
     {
         "cover": "https://cms.anagrama-ed.es/uploads/media/portadas/0001/22/2e9ac80d43adb20cb6615409d8ed376c42a11158.jpeg",
         "title": "Lectura Fácil",
