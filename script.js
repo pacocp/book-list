@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
      {
-        "cover": "https://imgs.search.brave.com/41xbBQwtL6GNK3KRtybqcxwDBzHfJMN7LQ-G_2DAsdE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubGlicm90ZWEu/Y29tL3VwbG9hZHMv/bWVkaWEvMjAyNi8w/NS8yNy9sYS1waWVs/LWhlbWJyYS5qcGVn",
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUuTkcLdAXbeS-ZGpdT60dHQ8JdaWEESP6LXWRR4X-jg&s",
         "title": "La piel hembra",
         "author": "Elaine Vilar Madruga",
         "review": "I did not enjoy much the first part of the book. I thought the second part was brilliant. A really nice read of magic realism, I have enjoyed it! I had not read something long for a while, so it has been nice to read a book for a while.",
