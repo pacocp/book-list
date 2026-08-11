@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new book, copy an existing block (from { to },) and paste it.
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
+{
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OAAU7oE_8pWtn3U8HqjEdL0tWtbL-CH9gO3UeEMPyA&s=10",
+        "title": "Principio, medio, fin",
+        "author": "Valeria Luiselli",
+        "review": "I have really enjoyed the book. How it is written, the story that is told, the characters, everything.",
+        "readDate": "2026-08-11"
+    },
      {
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUuTkcLdAXbeS-ZGpdT60dHQ8JdaWEESP6LXWRR4X-jg&s",
         "title": "La piel hembra",
