@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+"cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHSpGGH8u-WY4WOCFAZMv50TDRlbhMAshq9ftiU9L1g&s=10",
+        "title": "La sonrisa etrusca",
+        "author": "Jose Luis Sampedro",
+        "review": "i had high expectations for this book. I really like Sampedro, I think he was a great thinker. however I found the book really sexist. I know the character was an old man, but still. it has its nice parts though. what it made me think is that the grandfather probably would not have acted the same if it was a granddaughter.",
+        "readDate": "2026-08-14"
+    },
+{
         "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OAAU7oE_8pWtn3U8HqjEdL0tWtbL-CH9gO3UeEMPyA&s=10",
         "title": "Principio, medio, fin",
         "author": "Valeria Luiselli",
