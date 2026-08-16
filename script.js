@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+"cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9v4e1qF2d07PNmT0KXWQxwazX2L5Hwjtq_eCOEqaP7g&s=10",
+        "title": "Las carniceras",
+        "author": "Sophie Demange",
+        "review": "I have enjoyed it. You do not want to stop reading it.",
+        "readDate": "2026-08-15"
+    },
+{
 "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHSpGGH8u-WY4WOCFAZMv50TDRlbhMAshq9ftiU9L1g&s=10",
         "title": "La sonrisa etrusca",
         "author": "Jose Luis Sampedro",
