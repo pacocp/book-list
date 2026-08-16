@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+"cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQHk7eB8ERv8xmG7gPBl2V6ANb9pmXuTf3VkQ_ndtVQ&s=10",
+        "title": "Lea este libro si desea tomar buenas fotos",
+        "author": "Henry Carrol",
+        "review": "I am trying to get better at capturing life moments. This book is an easy introduction to photography concepts, and also to some really interesting photographers!",
+        "readDate": "2026-08-16"
+    },
+{
 "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9v4e1qF2d07PNmT0KXWQxwazX2L5Hwjtq_eCOEqaP7g&s=10",
         "title": "Las carniceras",
         "author": "Sophie Demange",
