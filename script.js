@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+"cover": "cms.anagrama-ed.es/uploads/media/portadas/0001/14/07b115a8fd0d64b8868898a23e86d079b192df6d.jpeg",
+        "title": "La pista de hielo",
+        "author": "Roberto Bolaño",
+        "review": "My second book from the author. Los detectives salvajes is much better, still a fun short read.",
+        "readDate": "2026-08-19"
+    },
+{
 "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQHk7eB8ERv8xmG7gPBl2V6ANb9pmXuTf3VkQ_ndtVQ&s=10",
         "title": "Lea este libro si desea tomar buenas fotos",
         "author": "Henry Carrol",
