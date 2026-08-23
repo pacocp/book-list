@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
-"cover": "cms.anagrama-ed.es/uploads/media/portadas/0001/14/07b115a8fd0d64b8868898a23e86d079b192df6d.jpeg",
+"cover": "https://imagessl6.casadellibro.com/a/l/t5/36/9788420431536.jpg",
         "title": "La pista de hielo",
         "author": "Roberto Bolaño",
         "review": "My second book from the author. Los detectives salvajes is much better, still a fun short read.",
