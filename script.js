@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+"cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIm1w1ofDmHFE-a_PXIB6T7B7U0oTz3C_7uiUctVKXg&s",
+        "title": "La soledad era esto",
+        "author": "Juan José Millás",
+        "review": "loved the book. the way the character is portrait, the way the narrativ develops and the character themselves are marvelous.",
+        "readDate": "2026-08-25"
+    },
+{
 "cover": "https://imagessl6.casadellibro.com/a/l/t5/36/9788420431536.jpg",
         "title": "La pista de hielo",
         "author": "Roberto Bolaño",
