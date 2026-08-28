@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+"cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufCMB23hkXln4JQ9zQ1vesS6rJDgf78dKieOlPaDyjw&s=10",
+        "title": "Seismil",
+        "author": "Laura C. Vela",
+        "review": "difficult story to read. makes you think what happens to kids.",
+        "readDate": "2026-08-28"
+    },
+{
 "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIm1w1ofDmHFE-a_PXIB6T7B7U0oTz3C_7uiUctVKXg&s",
         "title": "La soledad era esto",
         "author": "Juan José Millás",
