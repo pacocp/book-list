@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Use an image hosting service (like imgur.com or postimages.org) for cover URLs.
    const books = [
 {
+"cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Zl6yJj10dUUejtQElletwF7ZAMtT60Sey891i7qq9Q&s=10",
+        "title": "Bartleby & Co",
+        "author": "Enrique Vila-Matas",
+        "review": "Great book about authors that decide to not write. sometimes it is more difficult to say no, than to continue. I think I take that from the book.",
+        "readDate": "2026-09-07"
+    },
+{
 "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufCMB23hkXln4JQ9zQ1vesS6rJDgf78dKieOlPaDyjw&s=10",
         "title": "Seismil",
         "author": "Laura C. Vela",
